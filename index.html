@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuto site web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--c'est la partie header avec la barre de navigation il y'a aussi l'effet hover qui rend les boutons et liens plus jolie-->
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="./images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>BE WEIRD OTHERWISE <br> BE SIMPLE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eum, iusto est vel assumenda magnam esse et harum facilis 
+        repudiandae recusandae voluptatibus itaque quasi, id quisquam. 
+        Cumque asperiores quia architecto blanditiis.</p>
+        <a href="#" class="hero-btn">Visit Us To know More</a>
+</div>
+
+   </section>
+
+<!--toute marque a une philosophie qui lui est propre donc cette partie est dedié a la philosophoe de lamarque-->
+
+   <section class="product">
+    <h1>OUR BRAND'S PHILOSOPHY</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="philosophy-col">
+            <h3>simplicity</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolorum mollitia autem nisi, iure doloremque natus velit? 
+                 Porro veniam quod mollitia.</p>
+        </div>
+        <div class="philosophy-col">
+            <h3>acceptance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolorum mollitia autem nisi, iure doloremque natus velit? 
+                 Porro veniam quod mollitia.</p>
+        </div>
+        <div class="philosophy-col">
+            <h3>quality</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolorum mollitia autem nisi, iure doloremque natus velit? 
+                 Porro veniam quod mollitia.</p>
+        </div>
+    </div>
+   </section>
+
+<!--ça c'est la partie qui montre dans quel partie de la mode la marque est et des photo de modèles pour l'illustrer-->
+   <section class="model">
+    <h3>QUIET LUXURY</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="model-col">
+            <img src="./images/man-with-shirt4.jpg" alt="">
+            <div class="layer">
+                <h3>Ahmed</h3>
+            </div>
+            
+        </div>
+        <div class="model-col">
+            <img src="./images/man-with-shirt5.jpg" alt="">
+            <div class="layer">
+                <h3>Ahmed</h3>
+            </div>
+            
+        </div>
+        <div class="model-col">
+            <img src="./images/man-with-shirt6.jpg" alt="">
+            <div class="layer">
+                <h3>Ahmed</h3>
+            </div>
+            
+        </div>
+    </div>
+   </section>
+
+   <!--ça c'est la partie avec les gens qui ont soutenu la marque avec leur photo et ce qu'il ont dit sur la marque et sa philosophie axée sur la simplicité-->
+
+   <section class="inspirations">
+    <h1>Those who support us</h1>
+    <p>those who support our brand exceled in their task by showing high sophistication through simplicity.</p>
+
+    <div class="row">
+        <div class="inspirations-col">
+            <img src="./images/mackysall.jpeg" alt="">
+            <h3>SENEGAL ex-president</h3>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+        </div>
+        <div class="inspirations-col">
+            <img src="./images/Youssoundour.jpeg" alt="">
+            <h3>SENEGAL musician</h3>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+        </div>
+        <div class="inspirations-col">
+            <img src="./images/Boubou.jpeg" alt="">
+            <h3>senegalese artist</h3>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+        </div>
+    </div>
+   </section>
+
+   <!--ça c'est la partie avec les temoignages de clients satisfaits et leur notes qu'ils ont donné a nos produits-->
+
+   <section class="clients">
+    <h1>What our customers say</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="clients-col">
+            <img src="./images/man-with-shirt2.jpg">
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Nostrum recusandae mollitia architecto minus, quia sed enim, 
+                     exercitationem a reprehenderit laudantium quas quaerat!
+                     Ipsa magni iste quasi recusandae!</p>
+                     <h3>DEMBA NIANG</h3>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+
+            </div>
+        </div>
+        <div class="clients-col">
+            <img src="./images/man-with-shirt.jpg">
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Nostrum recusandae mollitia architecto minus, quia sed enim, 
+                     exercitationem a reprehenderit laudantium quas quaerat!
+                     Ipsa magni iste quasi recusandae!</p>
+                     <h3>ALIOU DOUKOURE</h3>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae, pariatur modi maxime 
+        maiores velit sint eveniet quod unde <br> nostrum voluptatibus voluptas 
+        non facere deleniti, saepe incidunt exercitationem amet? 
+        Iusto?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+   </section>
+<!--coach réduisait votre ecran comme ça vous verrait comment apparait le menu sur les ecrans de téléphone-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-260px";
+    }
+</script>
+
+    
+</body>
+</html>
